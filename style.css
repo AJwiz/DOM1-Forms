@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(170, 230, 215);
+}
+
+.col-4 {
+    background-color: rgb(235, 220, 189);
+}
+
+.col-8 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+input[type=text],
+select,
+input[type=number],
+select {
+    width: 100%;
+}
+
+#male,
+#female {
+    margin-right: 8px;
+}
+
+.options {
+    font-weight: lighter;
+}
+
+button {
+    width: 100%;
+    border: 2px solid rgb(151, 112, 112);
+    text-align: center;
+}
